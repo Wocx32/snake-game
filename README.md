@@ -28,9 +28,9 @@ python3 snake.py
 ```
 
 ## Screenshots
-![snake-screenshot1](https://github.com/Wocx32/snake-game/tree/master/.screenshots/snake_screenshot1.jpg?raw=true)
-![snake-screenshot2](https://github.com/Wocx32/snake-game/tree/master/.screenshots/snake_screenshot2.jpg?raw=true)
-![snake-screenshot3](https://github.com/Wocx32/snake-game/tree/master/.screenshots/snake_screenshot3.jpg?raw=true)
+![snake-screenshot1](https://github.com/Wocx32/snake-game/blob/master/.screenshots/snake_screenshot1.png?raw=true)
+![snake-screenshot2](https://github.com/Wocx32/snake-game/blob/master/.screenshots/snake_screenshot2.png?raw=true)
+![snake-screenshot3](https://github.com/Wocx32/snake-game/blob/master/.screenshots/snake_screenshot3.png?raw=true)
 
 ## Prerequisites
 - [Python](https://python.org)
