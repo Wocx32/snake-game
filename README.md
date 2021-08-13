@@ -5,7 +5,7 @@ A simple snake game in Python using Pygame.
 To get started, clone this repository
 
 ```
-git clone https://github.com/Wocx-32/snake-game.git
+git clone https://github.com/Wocx32/snake-game.git
 ```
 
 Then change directory to the cloned repo
