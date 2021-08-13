@@ -26,7 +26,7 @@ screen = pygame.display.set_mode(SIZE)
 screen.fill(BLACK)
 
 class Snake:
-    def __init__(self, x: int, y: int, blocksize: int, velocity: int, screen):
+    def __init__(self, x: int, y: int, blocksize: int, screen):
         self.x = x
         self.y = y
         self.BLOCKSIZE = blocksize
@@ -35,7 +35,6 @@ class Snake:
 
 
         self.snake = [[self.x, self.y], [self.x - self.BLOCKSIZE, self.y], [self.x - self.BLOCKSIZE*2, self.y], [self.x - self.BLOCKSIZE*3, self.y]]
-        self.velocity = velocity
         self.direction = 'RIGHT'
 
     def insert(self, x, y):
@@ -111,7 +110,7 @@ def show_score(color, font, size, game_over: bool = False):
 
 ##############################################################################
 
-snake = Snake(x, y, BLOCKSIZE, velocity, screen)
+snake = Snake(x, y, BLOCKSIZE, screen)
 food = Food(BLOCKSIZE, SIZE, screen)
 
 change_to = None
